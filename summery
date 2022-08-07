@@ -1,0 +1,11 @@
+ Steps for doing the project:
+ 1st: install nginx server >> sudo apt install nginx
+ check if it is in running state >> sudo systemctl status nginx
+ 2nd:  clone the project. >> sudo git clone https://github.com/Habib43005/rock-paper-scissors-js.git
+ copy the path of the cloned project directory >> pwd 
+ 3rd: go to /etc/nginx/sites-enabled and open default >> vi default
+ 4th: change the root from /vat/www/html to copied path of /class/rock-paper/rock-paper-scissors-js
+ 5th: save and quit. Then restart the nginx server
+ 6th: we can change port address from this /etc/nginx/sites-enabled file as well.
+ 
+ Done
